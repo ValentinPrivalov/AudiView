@@ -1,0 +1,1 @@
+Welcome, it's a php-testing file and it's work!
