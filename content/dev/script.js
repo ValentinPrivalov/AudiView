@@ -225,7 +225,7 @@ function setModalStyle(modal) {
 }
 
 //______________________________________
-
+/*
 titleCase('a clash of KINGS', 'a an the of');
 
 function titleCase(title, minorWords) {
@@ -242,3 +242,4 @@ function titleCase(title, minorWords) {
 	}
 	alert(arr.join(" "));
 }
+*/
