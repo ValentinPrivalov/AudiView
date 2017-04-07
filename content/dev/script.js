@@ -234,7 +234,7 @@ function titleCase(title, minorWords) {
 	var word = [];
 	for (var i = 0; i < arr.length; i++) {
 		arr[i] = arr[i].toLowerCase();
-		
+
 		word = arr[i].split("");
 		word[0] = word[0].toUpperCase();
 
@@ -242,20 +242,3 @@ function titleCase(title, minorWords) {
 	}
 	alert(arr.join(" "));
 }
-
-/*
-var mas = ["Джаз", "Блюз"];
-alert(mas);
-mas.push("Рок-н-Ролл"); //add in end
-alert(mas);
-mas[mas.length-2] = "Классика"; //second last
-alert(mas);
-var deleted = mas[0];
-mas.shift(); //del first
-alert("Deleted: " + deleted + "\n" + mas);
-mas.unshift("Рэп", "Регги"); //add in start
-alert(mas);
-
-var rand = Math.floor(Math.random() * mas.length);
-alert( mas[rand] );
-*/
